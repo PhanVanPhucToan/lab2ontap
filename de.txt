@@ -1,0 +1,49 @@
+BÀI TẬP: XÂY DỰNG CHƯƠNG TRÌNH QUẢN LÝ GIẢNG VIÊN KHOA CÔNG NGHỆ THÔNG TIN
+
+
+
+Khoa Công nghệ Thông tin cần một chương trình nhỏ để quản lý danh sách giảng viên của khoa. Hiện nay, văn phòng khoa đang theo dõi giảng viên bằng sổ tay, nên thường xảy ra tình trạng ghi trùng người, ghi sai học vị hoặc khó tìm kiếm khi cần.
+
+
+
+Mỗi giảng viên khi về công tác tại khoa được cấp một mã giảng viên gồm hai chữ cái “GV” và ba chữ số phía sau, ví dụ GV001, GV025. Mã này dùng để phân biệt các giảng viên với nhau, nên hai giảng viên không được trùng mã. Mã được cấp một lần duy nhất và giữ nguyên trong suốt thời gian giảng viên công tác tại khoa. Ngoài mã, khoa cần lưu họ tên, học vị và bộ môn của giảng viên. Họ tên và bộ môn không được để trống. Học vị của giảng viên chỉ có thể là Thạc sĩ hoặc Tiến sĩ. Khoa hiện có các bộ môn như Khoa học máy tính, Hệ thống thông tin và Mạng máy tính. Trong quá trình công tác, giảng viên có thể đổi họ tên trong hồ sơ, được nâng học vị sau khi bảo vệ luận án, hoặc được điều chuyển sang bộ môn khác.
+
+
+
+Chương trình cần cho phép văn phòng khoa thực hiện các công việc sau:
+
+
+
+Thêm một giảng viên mới vào danh sách. Nếu mã đã có người dùng thì chương trình phải từ chối.
+
+Sửa thông tin của một giảng viên khi biết mã.
+
+Xóa một giảng viên khỏi danh sách khi biết mã.
+
+Tìm một giảng viên theo mã. Khi tìm, người dùng gõ chữ hoa hay chữ thường đều được.
+
+Tìm các giảng viên mà họ tên có chứa một từ khóa cho trước. Ví dụ gõ “nguyễn” thì hiện ra tất cả giảng viên có chữ Nguyễn trong tên.
+
+Xem danh sách giảng viên của một bộ môn.
+
+In toàn bộ danh sách giảng viên và cho biết khoa có bao nhiêu giảng viên.
+
+
+
+Chương trình hiển thị một menu để người dùng chọn chức năng, và lặp lại cho đến khi người dùng chọn thoát. Nếu người dùng nhập sai thông tin, ví dụ mã không đúng định dạng, học vị gõ sai hoặc bỏ trống họ tên, chương trình phải thông báo lỗi rõ ràng rồi tiếp tục chạy, không được dừng đột ngột.
+
+
+
+Khi chương trình khởi động, danh sách có sẵn 5 giảng viên sau:
+
+
+
+GV001, Nguyễn Văn An, Thạc sĩ, Khoa học máy tính
+
+GV002, Trần Thị Bình, Tiến sĩ, Hệ thống thông tin
+
+GV003, Lê Minh Chí, Thạc sĩ, Mạng máy tính
+
+GV004, Phạm Thu Dung, Thạc sĩ, Mạng máy tính
+
+GV005, Nguyễn Gia Huy, Tiến sĩ, Khoa học máy tính
